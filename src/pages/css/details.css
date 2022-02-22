@@ -1,0 +1,137 @@
+.page_datails{
+    display: flex;
+    justify-content: center;
+    min-width: 500px;
+}
+
+.details_movie_page{
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+    min-width: 430px;
+    min-height: 500px;
+    border-radius: 42px;
+    background: #c5c5c5de;
+    color: white;
+    padding: 15px;
+    margin: 50px auto;
+    width: 75%;
+    
+}
+
+.card_datails{
+    height: 500px;
+    min-width: 350px;
+    background: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 30px;
+}
+
+
+
+.container_img{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    margin: 15px 30px;
+    
+}
+
+
+
+.img_revies{
+    margin: 0 0;
+    max-width: 300px;
+    height: 500px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.container_informacion{
+    display: flex;
+    max-width:50%;
+    margin: 25px 0;
+    flex-direction: column;
+}
+
+
+.informacion_a{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 25px;
+}
+
+.title_movie{
+    padding: 0 10px;
+}
+
+.title_director{
+    padding: 10px 10px;
+}
+
+.resena{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.container_res{
+    display: flex;
+    align-items:center;
+    margin: 20px 30px;
+    flex-wrap: wrap;
+    min-width: 350px;
+    min-height: 500px;
+    border-radius: 42px;
+    background: #c5c5c5de;
+    color: white;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.container_res2{
+    display: flex;
+    margin: 20px 30px;
+    flex-wrap: wrap;
+    min-width: 300px;
+    min-height: 50px;
+    border-radius: 42px;
+    background: #c5c5c5de;
+    color: white;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: solid 2px black;
+}
+
+.resena_desc{
+    display: flex;
+    padding: 25px;
+    background: #3f2828;
+    margin: 10px 10px;
+    border-radius: 25px;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.inputReview{
+    width: 90%;
+    padding: 5px;
+    margin: 5px 5px ;
+}
+
+.inputReviewa{
+    width: 75%;
+    padding: 5px;
+    margin: 5px 5px ;
+}
+
+.star{
+    display: flex;
+}

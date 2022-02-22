@@ -1,0 +1,30 @@
+.container_movieA{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 110px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background: rgba(170, 170, 170, 0.867);
+    gap: 5px 0;
+    
+}
+
+.container_movieA h2{
+    color: rgb(250, 249, 248);
+    text-align: center;
+    padding: 10px;
+    text-shadow: 7px 4px 5px rgb(72, 72, 73);
+    letter-spacing: 10px;
+    font-size: x-large;
+}
+.container_movies{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    
+   
+}
+

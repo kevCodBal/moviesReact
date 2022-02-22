@@ -1,0 +1,49 @@
+
+.Container_b {
+  width: 100%;
+  min-width: 650px;
+  min-height:400px ;
+  display: flex;
+}
+
+.wraper_b{
+  width: 100vw;
+  
+  display: flex;
+}
+
+.imgContainer_b{
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+}
+
+.slider_b{
+    width: 100vw;
+    height: 500px;
+    min-width: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.image_b {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.infoContainer_b{
+    flex: 1;
+  padding: 50px;
+}
+
+.title_b{
+    font-size: 70px;
+}
+
+.button_b{
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}

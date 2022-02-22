@@ -1,0 +1,97 @@
+
+.containerLoginA{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ContainerLogin{
+    background: rgb(71, 71, 71);
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 2em;
+}
+
+.heading{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.ContainerLogin .boxLogin p{
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.ContainerLogin .boxLogin div{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: 0.5em 0;
+}
+
+.ContainerLogin .boxLogin input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    outline: none;
+    padding-left: 0.8em;
+    border-radius: 10px;
+    transition: all .4s;
+}
+
+.ContainerLogin .boxLogin input:focus::placeholder{
+    color: white;
+}
+
+.loginBtn   {
+    width: 102%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin: 0.5em 0;
+    color: white;
+    background: linear-gradient(to right, #FF416C, #FF4B2B);
+    transition: all .4s;
+    cursor: pointer;
+    transform: translate(-1%);
+}
+
+.loginBtn:hover{
+    transform: translate(-1%, 5%);
+    box-shadow: 0 0 10px #ff416d65;
+}
+
+.text{
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.623);
+
+}
+
+.text a{
+    color: rgba(255, 255, 255, 0.911);
+}
+.cerarS{
+    width: 25%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin: 0.5em 0;
+    color: white;
+    background: linear-gradient(to right, #FF416C, #FF4B2B);
+    transition: all .4s;
+    cursor: pointer;
+    transform: translate(-1%);
+}
